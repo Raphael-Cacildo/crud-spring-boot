@@ -1,11 +1,11 @@
-package com.rcm.aplicativocrud;
+package com.rcm;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.boot.autoconfigure.domain.EntityScan;
 
 @SpringBootApplication
-@EntityScan(basePackages = {"com.rcm.models"})//para scaner esse pacote e criar todas as tabelas
+@EntityScan(basePackages = {"com.rcm.*"})//para scaner esse pacote e criar todas as tabelas
 public class AplicativoCrudSpringBootThymeleafApplication {
 
 	public static void main(String[] args) {

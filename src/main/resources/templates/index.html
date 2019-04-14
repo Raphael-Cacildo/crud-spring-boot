@@ -3,7 +3,7 @@
 <body>
 
 	<div th:switch="${users}">
-		<h2 th:case="null">No users yet!</h2>
+		<h2 th:case="null">Nenhum usuário ainda!</h2>
 		<div th:case="*">
 			<h2>Users</h2>
 			<table>
@@ -26,7 +26,7 @@
 			</table>
 		</div>
 		<p>
-			<a href="/signup">Add a new user</a>
+			<a href="/signup">Adicione um novo usuário</a>
 		</p>
 	</div>
 </body>
